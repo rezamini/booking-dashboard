@@ -14,6 +14,7 @@ function DashboardNav() {
           className="d-inline-block align-top"
         />{' '}
         Dashboard
+        
       </Navbar.Brand>
       </Navbar>
     </div>

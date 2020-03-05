@@ -1,8 +1,8 @@
-export const SET_PIE_SERIES = 'SET_PIE_SERIES';
+export const CHANGE_CALENDAR_DAY = 'CHANGE_CALENDAR_DAY';
 
-export const setPieSeries = (dataSeries) => {
+export const changeCalendarDay = (data) => {
   return {
-    type: SET_PIE_SERIES,
-    payload: dataSeries
+    type: CHANGE_CALENDAR_DAY,
+    payload: data
   };
 };

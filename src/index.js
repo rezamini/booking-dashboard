@@ -7,6 +7,7 @@ import { createStore } from 'redux';
 import allReducer from './reducers';
 import { Provider } from 'react-redux';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-day-picker/lib/style.css';
 
 const store = createStore(allReducer);
 

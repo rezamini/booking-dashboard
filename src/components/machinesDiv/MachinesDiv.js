@@ -11,17 +11,18 @@ function MachinesDiv() {
   return (
     <Container>
   <Row>
-    <Col><MDBIcon icon="tshirt" size="5x" /><InputGroup.Checkbox aria-label="Checkbox for following text input" /></Col>
-    <Col><MDBIcon icon="tshirt" size="5x" className="deep-purple-text"/><InputGroup.Checkbox aria-label="Checkbox for following text input" /></Col>
-    <Col><MDBIcon icon="tshirt" size="5x" className="deep-purple-text"/><InputGroup.Checkbox aria-label="Checkbox for following text input" /></Col>
-    <Col><MDBIcon icon="tshirt" size="5x" className="deep-purple-text"/><InputGroup.Checkbox aria-label="Checkbox for following text input" /></Col>
+  <Col><InputGroup.Checkbox /><img src="/wash.ico" className="wash"/></Col>
+  <Col><InputGroup.Checkbox /><img src="/wash.ico" className="wash"/></Col>
+  <Col><InputGroup.Checkbox /><img src="/wash.ico" className="wash"/></Col>
+  <Col><InputGroup.Checkbox /><img src="/wash.ico" className="wash"/></Col>
   </Row>
   <Row>
-    <Col><MDBIcon icon="tshirt" size="5x" /><InputGroup.Checkbox aria-label="Checkbox for following text input" /></Col>
-    <Col><MDBIcon icon="tshirt" size="5x" className="deep-purple-text"/><InputGroup.Checkbox aria-label="Checkbox for following text input" /></Col>
+  <Col><InputGroup.Checkbox /><img src="/wash.ico" className="wash"/></Col>
+  <Col><InputGroup.Checkbox className="check"/><img src="/wash.ico" className="wash"/></Col>
   </Row>
   <Row>
     <Col><Button variant="primary">Reserve</Button></Col>
+
   </Row>
 </Container>
   );
